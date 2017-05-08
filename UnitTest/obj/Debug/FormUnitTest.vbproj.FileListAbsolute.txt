@@ -18,3 +18,13 @@ C:\Users\s3575984\Desktop\s3575984-Assignment02-HRRIS\s3575984-Assignment02-HRRI
 C:\Users\s3575984\Desktop\s3575984-Assignment02-HRRIS\s3575984-Assignment02-HRRIS\UnitTest\obj\Debug\UnitTest.dll
 C:\Users\s3575984\Desktop\s3575984-Assignment02-HRRIS\s3575984-Assignment02-HRRIS\UnitTest\obj\Debug\UnitTest.xml
 C:\Users\s3575984\Desktop\s3575984-Assignment02-HRRIS\s3575984-Assignment02-HRRIS\UnitTest\obj\Debug\UnitTest.pdb
+C:\Users\s3575984\Source\Repos\s3575984-Assignment02-HRRIS\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\s3575984\Source\Repos\s3575984-Assignment02-HRRIS\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\s3575984\Source\Repos\s3575984-Assignment02-HRRIS\UnitTest\bin\Debug\UnitTest.xml
+C:\Users\s3575984\Source\Repos\s3575984-Assignment02-HRRIS\UnitTest\bin\Debug\s3575984-Assignment02-HRRIS.exe
+C:\Users\s3575984\Source\Repos\s3575984-Assignment02-HRRIS\UnitTest\bin\Debug\s3575984-Assignment02-HRRIS.pdb
+C:\Users\s3575984\Source\Repos\s3575984-Assignment02-HRRIS\UnitTest\bin\Debug\s3575984-Assignment02-HRRIS.xml
+C:\Users\s3575984\Source\Repos\s3575984-Assignment02-HRRIS\UnitTest\obj\Debug\FormUnitTest.vbprojResolveAssemblyReference.cache
+C:\Users\s3575984\Source\Repos\s3575984-Assignment02-HRRIS\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\s3575984\Source\Repos\s3575984-Assignment02-HRRIS\UnitTest\obj\Debug\UnitTest.xml
+C:\Users\s3575984\Source\Repos\s3575984-Assignment02-HRRIS\UnitTest\obj\Debug\UnitTest.pdb

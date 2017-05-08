@@ -12,8 +12,8 @@ Public Class validation
 
    Public Function isAlphaNum(ByVal descr As String) As Boolean
 
-      Dim pattern As Regex = New Regex("^[a-zA-Z]+[0-9-_ ]")
-      Dim pattern2 As Regex = New Regex("^[0-9]+[a-zA-Z-_ ]")
+        Dim pattern As Regex = New Regex("^[a-zA-Z]+[0-9 _-]")
+        Dim pattern2 As Regex = New Regex("^[0-9 _-]+[a-zA-Z]")
       Dim pattern3 As Regex = New Regex("^[a-zA-Z]")
 
       If 255 > descr.Length And descr.Length > 0 And (pattern.IsMatch(descr) Or pattern2.IsMatch(descr) Or pattern3.IsMatch(descr)) Then
