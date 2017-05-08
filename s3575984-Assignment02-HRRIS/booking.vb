@@ -353,38 +353,43 @@ Public Class frmBooking
          findInfor = findInfor + 1
          findBookingField = "booking_id"
          key = CStr(txtBookId.Text)
-      End If
+        End If
+
       If pckDate.Checked = True Then
          findInfor = findInfor + 1
          findBookingField = "datebook"
          key = CStr(pckDate.Value)
-      End If
+        End If
+
       If bxRoomNumber.SelectedIndex > -1 Then
          findInfor = findInfor + 1
          findBookingField = "room_id"
          key = CStr(bxRoomNumber.SelectedValue)
-      End If
+        End If
+
       If txtCustomerId.Text.Length > 0 And txtCustomerId.Text.Length < 50 And IsNumeric(txtCustomerId.Text) Then
          findInfor = findInfor + 1
          findBookingField = "customer_id"
          Dim oConnection As OleDbConnection = New OleDbConnection(CONNECTION_STRING)
          Dim cIdTemp As String
          oConnection.Open()
-         Dim qry As OleDbCommand = New OleDbCommand("SELECT customer_id, phone from customer where phone =" & txtCustomerId.Text & "", oConnection)
+            Dim qry As OleDbCommand = New OleDbCommand("SELECT customer_id, phone from customer where phone =""" & CStr(txtCustomerId.Text) & """", oConnection)
          Dim rd As OleDbDataReader = qry.ExecuteReader
          Dim found As Boolean = False
          While rd.Read
             found = True
-            cIdTemp = CStr(rd("phone"))
+                cIdTemp = CStr(rd("customer_id"))
          End While
          oConnection.Close()
          key = CStr(cIdTemp)
-      End If
+        End If
+
       If txtNumDays.Text.Length > 0 And IsNumeric(txtNumDays.Text) Then
          findInfor = findInfor + 1
          findBookingField = "num_days"
          key = CStr(txtNumDays.Text)
-      End If
+        End If
+
       If txtNumGuests.Text.Length > 0 And IsNumeric(txtNumGuests.Text) Then
          findInfor = findInfor + 1
          findBookingField = "num_guests"
