@@ -125,7 +125,7 @@ Public Class cbReportController
     End Function
 
 
-
+    'generate table for the report
     Private Function generateControlBreakTable1(ByVal lsData As List(Of Hashtable)) As String
         ' Generate the start of the table
         Dim sTable = "<table border=""1"">" & vbCrLf
@@ -162,7 +162,7 @@ Public Class cbReportController
 
 
 
-
+    'generate content for the table
     Private Function generateTableRows1(ByVal lsData As List(Of Hashtable), ByVal lsKeys As List(Of String)) As String
 
         '1. Initialisation
