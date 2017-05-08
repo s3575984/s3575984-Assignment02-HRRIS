@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e5ec5c06-6cf3-4d8a-b047-bfc493db4f13" name="PHAMCHANH@PC 2017-05-03 22:03:38" runUser="PC\PHAMCHANH" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8b0b794f-5649-40aa-880c-d0e138cad75f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="PHAMCHANH_PC 2017-05-03 22_03_38">
+      <DeploymentItem filename="C:\Users\PHAMCHANH\Documents\Visual Studio 2010\Projects\s3575984-Assignment02-HRRIS\s3575984-Assignment02-HRRIS\bin\Debug\s3575984-Assignment02-HRRIS.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-05-03T22:03:38.0250114+07:00" queuing="2017-05-03T22:03:38.6730485+07:00" start="2017-05-03T22:03:38.7200512+07:00" finish="2017-05-03T22:03:39.3380865+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestIsEmail" storage="c:\users\phamchanh\documents\visual studio 2010\projects\s3575984-assignment02-hrris\unittest\bin\debug\unittest.dll" id="3e42f5ca-5ebd-3cac-b2ec-51194cd1fe83">
+      <Execution id="96d76e11-32cc-4f6c-bf28-d4a6c77fdb03" />
+      <TestMethod codeBase="C:/Users/PHAMCHANH/Documents/Visual Studio 2010/Projects/s3575984-Assignment02-HRRIS/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.TestValidation, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsEmail" />
+    </UnitTest>
+    <UnitTest name="TestIsAlpha" storage="c:\users\phamchanh\documents\visual studio 2010\projects\s3575984-assignment02-hrris\unittest\bin\debug\unittest.dll" id="2a9195fd-45bb-a783-76f8-bc95db5d7ba0">
+      <Execution id="25d6f987-bf5a-40da-aba4-117cf55b7e9d" />
+      <TestMethod codeBase="C:/Users/PHAMCHANH/Documents/Visual Studio 2010/Projects/s3575984-Assignment02-HRRIS/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.TestValidation, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsAlpha" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2a9195fd-45bb-a783-76f8-bc95db5d7ba0" executionId="25d6f987-bf5a-40da-aba4-117cf55b7e9d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e42f5ca-5ebd-3cac-b2ec-51194cd1fe83" executionId="96d76e11-32cc-4f6c-bf28-d4a6c77fdb03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="25d6f987-bf5a-40da-aba4-117cf55b7e9d" testId="2a9195fd-45bb-a783-76f8-bc95db5d7ba0" testName="TestIsAlpha" computerName="PC" duration="00:00:00.0185466" startTime="2017-05-03T22:03:38.7580534+07:00" endTime="2017-05-03T22:03:39.2650824+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25d6f987-bf5a-40da-aba4-117cf55b7e9d">
+      <Output>
+        <DebugTrace>Setting up ...
+Cleaning up ...
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="96d76e11-32cc-4f6c-bf28-d4a6c77fdb03" testId="3e42f5ca-5ebd-3cac-b2ec-51194cd1fe83" testName="TestIsEmail" computerName="PC" duration="00:00:00.0015180" startTime="2017-05-03T22:03:39.2730828+07:00" endTime="2017-05-03T22:03:39.3010844+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96d76e11-32cc-4f6c-bf28-d4a6c77fdb03">
+      <Output>
+        <DebugTrace>Setting up ...
+Cleaning up ...
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

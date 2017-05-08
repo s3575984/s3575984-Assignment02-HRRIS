@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="229b33e0-c092-4d2e-85b6-21cf9ebf6b96" name="PHAMCHANH@PC 2017-05-03 22:04:44" runUser="PC\PHAMCHANH" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="8b0b794f-5649-40aa-880c-d0e138cad75f">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="PHAMCHANH_PC 2017-05-03 22_04_44">
+      <DeploymentItem filename="C:\Users\PHAMCHANH\Documents\Visual Studio 2010\Projects\s3575984-Assignment02-HRRIS\s3575984-Assignment02-HRRIS\bin\Debug\s3575984-Assignment02-HRRIS.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2017-05-03T22:04:44.8768351+07:00" queuing="2017-05-03T22:04:45.5638744+07:00" start="2017-05-03T22:04:45.6278781+07:00" finish="2017-05-03T22:04:46.2259123+07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestisAlphaNum" storage="c:\users\phamchanh\documents\visual studio 2010\projects\s3575984-assignment02-hrris\unittest\bin\debug\unittest.dll" id="409b54b9-f487-8ca1-f812-9427cc8bd73a">
+      <Execution id="a40c8beb-5f4a-4dbb-bfb4-da4228491534" />
+      <TestMethod codeBase="C:/Users/PHAMCHANH/Documents/Visual Studio 2010/Projects/s3575984-Assignment02-HRRIS/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.TestValidation, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestisAlphaNum" />
+    </UnitTest>
+    <UnitTest name="TestIsEmail" storage="c:\users\phamchanh\documents\visual studio 2010\projects\s3575984-assignment02-hrris\unittest\bin\debug\unittest.dll" id="3e42f5ca-5ebd-3cac-b2ec-51194cd1fe83">
+      <Execution id="952d33f1-9655-4be1-82d0-f00a57d16b61" />
+      <TestMethod codeBase="C:/Users/PHAMCHANH/Documents/Visual Studio 2010/Projects/s3575984-Assignment02-HRRIS/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.TestValidation, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsEmail" />
+    </UnitTest>
+    <UnitTest name="TestIsAlpha" storage="c:\users\phamchanh\documents\visual studio 2010\projects\s3575984-assignment02-hrris\unittest\bin\debug\unittest.dll" id="2a9195fd-45bb-a783-76f8-bc95db5d7ba0">
+      <Execution id="f507b4c5-c51d-4a8f-b459-49c79bfd3036" />
+      <TestMethod codeBase="C:/Users/PHAMCHANH/Documents/Visual Studio 2010/Projects/s3575984-Assignment02-HRRIS/UnitTest/bin/Debug/UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTest.TestValidation, UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIsAlpha" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2a9195fd-45bb-a783-76f8-bc95db5d7ba0" executionId="f507b4c5-c51d-4a8f-b459-49c79bfd3036" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e42f5ca-5ebd-3cac-b2ec-51194cd1fe83" executionId="952d33f1-9655-4be1-82d0-f00a57d16b61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="409b54b9-f487-8ca1-f812-9427cc8bd73a" executionId="a40c8beb-5f4a-4dbb-bfb4-da4228491534" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f507b4c5-c51d-4a8f-b459-49c79bfd3036" testId="2a9195fd-45bb-a783-76f8-bc95db5d7ba0" testName="TestIsAlpha" computerName="PC" duration="00:00:00.0187998" startTime="2017-05-03T22:04:45.6808811+07:00" endTime="2017-05-03T22:04:46.1239065+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f507b4c5-c51d-4a8f-b459-49c79bfd3036">
+      <Output>
+        <DebugTrace>Setting up ...
+Cleaning up ...
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="952d33f1-9655-4be1-82d0-f00a57d16b61" testId="3e42f5ca-5ebd-3cac-b2ec-51194cd1fe83" testName="TestIsEmail" computerName="PC" duration="00:00:00.0023462" startTime="2017-05-03T22:04:46.1319069+07:00" endTime="2017-05-03T22:04:46.1409074+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="952d33f1-9655-4be1-82d0-f00a57d16b61">
+      <Output>
+        <DebugTrace>Setting up ...
+Cleaning up ...
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a40c8beb-5f4a-4dbb-bfb4-da4228491534" testId="409b54b9-f487-8ca1-f812-9427cc8bd73a" testName="TestisAlphaNum" computerName="PC" duration="00:00:00.0013417" startTime="2017-05-03T22:04:46.1479078+07:00" endTime="2017-05-03T22:04:46.1559083+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a40c8beb-5f4a-4dbb-bfb4-da4228491534">
+      <Output>
+        <DebugTrace>Setting up ...
+Cleaning up ...
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
